@@ -1,0 +1,25 @@
+{
+  "name": "api_teste_tecnico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "prisma": "^5.10.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.10.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.1",
+    "tsx": "^4.7.1"
+  }
+}
